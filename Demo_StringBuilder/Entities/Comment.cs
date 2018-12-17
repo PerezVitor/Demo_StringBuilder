@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Demo_StringBuilder.Entities
 {
-    class Coment
+    class Comment
     {
+        public string Text { get; set; }
+
+        public Comment()
+        { }
+
+        public Comment(string text)
+        {
+            Text = text;
+        }
     }
 }
